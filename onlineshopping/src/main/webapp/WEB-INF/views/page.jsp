@@ -58,9 +58,10 @@
 
 
             <!-- Navigation -->
-            <%@include file="include/navigationBar.jsp" %>
-            <!-- Page Content -->
+		<%@include file="include/navigationBar.jsp"%>
+		<!-- Page Content -->
             <div class="content">
+                      
                 <!--home container-->
                 <!--this content must loaded only when the user click home-->
                 <c:if test="${userClickHome == true}">
